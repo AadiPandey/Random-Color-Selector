@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: background-color 0.3s ease-in-out;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+#colorButton {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 6px #0056b3;
+    transition: all 0.1s ease-in-out;
+    transform: translateY(0);
+    outline: none;
+}
+
+#colorButton:active {
+    transform: translateY(4px);
+    box-shadow: 0 2px #0056b3;
+}
+
+#colorButton:hover {
+    background-color: #339dff;
+}
